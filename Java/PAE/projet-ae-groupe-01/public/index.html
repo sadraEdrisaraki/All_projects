@@ -1,0 +1,119 @@
+<!-- The skeleton of this page was generated through the bootstrap Extension / "b4-$" Snippet -->
+<html lang="en">
+
+<head>
+    <title>La rose et le lilas</title>
+    <!-- Required meta tags -->
+    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+
+    <!-- Bootstrap -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<!-- Own styelsheet to deal with the validation constraint styles -->
+	<link rel="stylesheet" href="./style/mystyle.css">
+	<link rel="stylesheet" href="./style/navbar.css">
+
+
+</head>
+
+<body>
+
+	<header id="header_accueil_ouvrier" class="header">
+		<img class="logo" src="./style/image/logo.png" alt="logo" width="75px">
+		<span class="msg_accueil_bonjour"></span>
+		<span class="btn_logout">Se déconnecter</span>
+		<header id="menu_accueil_ouvrier" class="menu_accueil">
+			<div id="menu_btn_recherche" class="menu_btn_item"><span>Rechercher</span></div>
+			<div id="menu_btn_dropdown" class="menu_btn_item">
+				<div class="dropdown">
+					<span>Administrer utilisateur</span>
+					<div class="dropdown-content">
+						<span id="menu_btn_administrer_utilisateur" class="menu_btn_item_list_element">Lier</span>
+						<span id="menu_btn_confirmer_inscription" class="menu_btn_item_list_element">Confirmer</span>
+					</div>
+				</div>
+			</div>
+
+			<div id="menu_btn_introduire_devis" class="menu_btn_item"><span>Introduire devis</span></div>
+		</header>
+	</header>
+	<div id="tooltip"><span>test</span></div>
+	<header id="header_accueil_client" class="header">
+		<img class="logo" src="./style/image/logo.png" alt="logo" width="75px">
+		<span class="msg_accueil_bonjour"></span>
+		<span class="btn_logout">Se déconnecter</span>
+		<header id="menu_accueil_client" class="menu_accueil">
+			<span id="menu_btn_mes_devis" class="menu_btn_item">Mes devis</span>
+		</header>
+	</header>
+
+	<header id="header_accueil_visiteur" class="header">
+		<img class="logo" src="./style/image/logo.png" alt="logo" width="75px">
+		<span id="btn_accueil_login">Se Connecter</span>
+		<span id="btn_accueil_inscription">S'inscrire</span>
+	</header>
+
+	<div id="page_login">
+	</div>
+
+    <div id="page_accueil">
+	</div>
+
+	<div id="page_inscription">
+	</div>
+
+	<div id="page_introduire_devis">
+	</div>
+
+	<!-- recherche -->
+	<div id="liste_recherche">
+
+	</div>
+	<!-- fin recherche -->
+
+  <!-- Visualisation d'un devis -->
+  <div id="visualisation_devis">
+
+  </div>
+
+
+	<!-- parti affichage des devis pour un client -->
+  <div id="page_devis_client">
+  </div>
+	<!--fin  parti affichage des devis pour un client -->
+
+	<div id="liste_utilisateur">
+	</div>
+
+
+	<div id="page_administrer_utilisateur">
+	</div>
+
+	<div id="page_confirmer_inscription">
+	</div>
+
+	<!-- JavaScript -->
+    <script src="./vendors/jquery.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+	<script src="./script/includeFunction.js"></script>
+	<script src="script/carouselComponent.js" type="module"></script>
+	<script src="script/navbarCarousel.js" type="module"></script>
+	<script src="./script/loginPage.js" type="module"></script>
+    <script src="./script/accueilPage.js" type="module"></script>
+	<script src="./script/envoyer_image.js" type="module"></script>
+	<script src="./script/inscription.js" type="module"></script>
+	<script src="./script/recherche.js" type="module"></script>
+	<script src="./script/introductionClient.js" type="module"></script>
+	<script src="./script/gestionClientUtilisateur.js" type="module"></script>
+	<script src="./script/confirmerInscription.js" type="module"></script>
+	<script src="./script/genererIntroductionDevis.js" type="module"></script>
+    <script src="./script/introductionDevis.js" type="module"></script>
+    <script src="./script/listeDevis.js" type="module"></script>
+    <script src="./script/visualisationDevis.js" type="module"></script>
+
+</body>
+
+</html>

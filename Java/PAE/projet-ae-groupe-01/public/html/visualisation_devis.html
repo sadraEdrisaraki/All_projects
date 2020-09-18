@@ -1,0 +1,64 @@
+<span id="titre_visualisation_devis" class="visualisation_devis_text_title"> Visualisation devis de : </span>
+<div id="info_client" class="container_visualisation">
+  <span id="nom" class="visualisation_devis_text"> Nom : </span>
+  <span id="prenom" class="visualisation_devis_text"> Prénom : </span>
+  <span id="rue" class="visualisation_devis_text"> Rue : </span>
+  <span id="numero" class="visualisation_devis_text"> Numéro : </span>
+  <span id="boite" class="visualisation_devis_text"> Boite : </span>
+  <span id="code_postal" class="visualisation_devis_text"> Code Postal : </span>
+  <span id="ville" class="visualisation_devis_text"> Ville : </span>
+  <span id="email" class="visualisation_devis_text"> e-mail : </span>
+  <span id="telephone" class="visualisation_devis_text"> Téléphone : </span>
+</div>
+
+<div id="info_devis" class="container_visualisation">
+  <span id="date_devis" class="visualisation_devis_text"> Date du devis : </span>
+  <span id="montant_total" class="visualisation_devis_text"> Montant total : </span>
+  <span id="duree_travaux" class="visualisation_devis_text"> Durée des travaux : </span>
+  <div id="photo_avant_amenagement"></div>
+  <span id="type_amenagement" class="visualisation_devis_text"> Type(s) d'aménagements(s) : </span>
+  <span id="etat_travaux_client" class="visualisation_devis_text"></span>
+</div>
+
+<div id="info_travaux" class="container_visualisation">
+  <span id="date_debut_travaux_picker" class="visualisation_devis_text"> Date début des travaux :<input type="date" id="date_travaux_input"> </span>
+  <div id="error_date_debut_travaux">La date de début des travaux doit être après la date du devis </div>
+  <span id="date_debut_travaux" class="visualisation_devis_text"> Date début des travaux : </span>
+
+  <input type="checkbox" id="facture_milieu_envoye" name="facture_milieu_envoye" value="facture_milieu_envoye">
+  <label for="facture_milieu_envoye" id="facture_milieu_envoye_label" class="visualisation_devis_text">Facture de milieu de chantier envoyée </label>
+
+  <input type="checkbox" id="facture_fin_envoye" name="facture_fin_envoye" value="facture_fin_envoye">
+  <label for="facture_fin_envoye" id="facture_fin_envoye_label" class="visualisation_devis_text">Facture de fin de chantier envoyée </label>
+
+  <input type="checkbox" id="facture_fin_paye" name="facture_fin_paye" value="facture_fin_paye">
+  <label for="facture_fin_paye" id="facture_fin_paye_label" class="visualisation_devis_text">Facture de fin de chantier payée </label>
+
+  <div id="photo_apres_amenagement_insert">
+
+  <input type="file" name="image" id="ajout_image_apres_amenagement"> <br>
+  <span id="duree_travaux" class="visualisation_devis_text"> Cocher votre photo favorite </span>
+    <div id="image_apres_amenagement_preview">
+
+    </div>
+
+  </div>
+  <span id="etat_courant" class="visualisation_devis_text"> Etat courant : </span>
+  <button id="confirmer_commande">Confirmer la commande d'aménagement</button>
+  <button id="confirmer_date_debut_travaux">Confirmer la date de débuts des travaux</button>
+  <button id="confirmer_passer_etape_suivante">Confirmer et passer a l'étape suivante</button>
+  <button id="confirmer_changement">Confirmer les changements</button>
+  <button id="annuler_commande">Annuler la demande d'aménagement</button>
+</div>
+
+<div id="photos_devis" class="container_visualisation">
+  Photos avant aménagements :
+  <div id="photo_avant_amenagement" class="container_visualisation">
+
+  </div>
+  Photos après aménagements :
+  <div id="photo_apres_amenagement" class="container_visualisation">
+
+  </div>
+
+</div>
